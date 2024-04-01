@@ -45,7 +45,7 @@ const Home = () => {
   }
 
   return (
-    <div className='fullScreenContainer'>
+    <div className='full-screen-home-container'>
       <div className="container card">
         <h1 style={{ textAlign: 'center' }}> Cards Game </h1>
         <p> {errorMessage} </p>

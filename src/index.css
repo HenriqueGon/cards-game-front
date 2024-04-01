@@ -3,13 +3,21 @@
   padding: 0;
 }
 
-.fullScreenContainer {
+.full-screen-home-container {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/Background.jpg)
+  background-image: url(images/Background.jpg);
+  overflow: hidden;
+}
+
+.full-screen-game-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/Background.jpg);
+  overflow-x: hidden;
 }
 
 .card {
@@ -23,4 +31,14 @@
 .card p {
   color: red;
   text-align: center;
+}
+
+.addPlayer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -4,7 +4,12 @@ const Button = ({onClick, disabled, className, text}) => {
 
   return (
     <>
-      <button onClick={onClick} disabled={disabled} className={className}>{text}</button >
+      <button 
+        onClick={onClick} 
+        disabled={disabled} 
+        className={className ? className : 'btn btn-primary btn-block'}        >
+          {text}
+        </button >
     </>
   );
 }
